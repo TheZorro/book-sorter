@@ -96,9 +96,9 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Berlin
+      - TZ=[YOUR TIME ZONE]
       - WAIT_SECONDS=30
-      - ANTHROPIC_API_KEY=your-key-here
+      - ANTHROPIC_API_KEY=[YOUR API KEY]
     volumes:
       - /opt/book-sorter/config:/config
       - /path/to/books/downloads:/downloads
