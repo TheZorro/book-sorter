@@ -125,15 +125,14 @@ All configuration is done via environment variables:
 
 ## Logs
 
-Logs are written to `/config/sorter.log` inside the container (map this to a host path via volumes). They are also available via `docker logs book-sorter` or in Portainer.
+Logs are written to /config/sorter.log inside the container (map this to a host path via volumes). They are also available via docker logs book-sorter or in Portainer.
 
 Example log output:
-
 ```
-2026-02-18 16:06:29 [INFO] Verarbeite Datei: Edward Ashton - Antimatter Blues.mobi
-2026-02-18 16:06:29 [INFO] Metadaten: Titel=Antimatter Blues, Autor=Edward Ashton, Quelle=dateiname
-2026-02-18 16:06:32 [INFO] Klassifiziert als fiction: Edward Ashton - Antimatter Blues.mobi
-2026-02-18 16:06:32 [INFO] Verschoben: Edward Ashton - Antimatter Blues.mobi nach fiction/Ashton, Edward/
+2026-02-18 16:06:29 [INFO] Processing file: Edward Ashton - Antimatter Blues.mobi
+2026-02-18 16:06:29 [INFO] Metadata: Title=Antimatter Blues, Author=Edward Ashton, Source=filename
+2026-02-18 16:06:32 [INFO] Classified as fiction: Edward Ashton - Antimatter Blues.mobi
+2026-02-18 16:06:32 [INFO] Moved: Edward Ashton - Antimatter Blues.mobi to fiction/Ashton, Edward/
 ```
 
 ## Known limitations
