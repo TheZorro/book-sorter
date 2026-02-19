@@ -23,7 +23,7 @@ An automated book sorting agent that uses Claude AI to classify and organize ebo
 ## Requirements
 
 - Docker
-- An [Anthropic API key](https://console.anthropic.com/) (Claude Haiku is used – very low cost, typically < $0.05/month for a home library)
+- An [Anthropic API key](https://console.anthropic.com/) (Claude Haiku is used for classification. Pricing is per request, not per month – if no books are processed, there is no cost. As a rough guide, 100 books cost approximately $0.01–$0.05 depending on metadata length.)
 
 ## Folder structure
 
